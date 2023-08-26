@@ -30,7 +30,7 @@ const VideoDetail = () => {
   } = videoDetail;
 
   return (
-    <Box minHeight="60vh" sx={{ border: "2px solid red" }}>
+    <Box minHeight="95vh">
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
@@ -75,4 +75,5 @@ const VideoDetail = () => {
     </Box>
   );
 };
+
 export default VideoDetail;
