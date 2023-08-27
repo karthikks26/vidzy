@@ -1,8 +1,4 @@
-# React + Vite
+# Vidzy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ vidzy a video playing app using rapid api(uses youtube v3), in which we can search videos of different categories and play videos
+Tech used react, materialui, react-routerd-dom, axios, npm, vite, react-player , git
