@@ -1,14 +1,14 @@
 import axios from "axios";
 
-const BASE_URL = "https://youtube-v31.p.rapidapi.com";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const options = {
   params: {
     maxResults: "50",
   },
   headers: {
-    "X-RapidAPI-Key": "2ad858c3d6msh81ac0c48ebb7a48p1c7e39jsnd9905d285729",
-    "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
+    "X-RapidAPI-Key": import.meta.env.VITE_RAPID_API_KEY,
+    "X-RapidAPI-Host": import.meta.env.VITE_BASE_RapidAPI_Host,
   },
 };
 
