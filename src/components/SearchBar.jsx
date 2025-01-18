@@ -46,7 +46,11 @@ const SearchBar = () => {
           flexGrow: 1,
         }}
       />
-      <IconButton type="submit" sx={{ color: "red" }} aria-label="search">
+      <IconButton
+        type="submit"
+        sx={{ color: "red", mr: { xs: "30px", sm: 0 } }}
+        aria-label="search"
+      >
         <SearchIcon />
       </IconButton>
     </Paper>
